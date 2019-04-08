@@ -1,0 +1,155 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden;*/
+}
+
+#index_main {
+    position: relative;	/*相对位置*/
+    background-color: grey;	/*背景*/
+    display: block;	/*显示方式：单独占据一行*/
+    width: 100%;
+    height: 100%;
+}
+
+
+#panel_top {
+    /*background-color: #08304A;*/
+	background-color: inherit;/*继承父元素*/
+    display: flex;  /*flex 块与块之间没有空隙*/
+    width: 99.5%;
+    height: 65%;
+    padding: 0.2% 0.25% 0.1% 0.25%; /*内距:上 右 下 左*/
+    /*padding-bottom: 3px;外部距离*/
+}
+
+#panel_top_child{
+    background-color: inherit;
+    display: inline-block;
+    width: 37%;
+    height: 100%;
+    border: 1px solid grey;
+    /*padding: 0% 0.2% 0% 0%; 内距:上 右 下 左*/
+}
+
+
+
+#map {
+    background-color: inherit;
+    display: inline-block;
+    width: 63%;
+    height: 100%;
+    /*height: 80%;*/
+    border: 1px solid grey;
+    /*padding: 0% 0.2% 0% 0%; 内距:上 右 下 左*/
+}
+
+#tables{
+    background-color: #08304A;
+    display: inline-block;
+    width: 100%;
+    height: 35%;
+    /*height: 80%;*/
+    /*margin-bottom: 3px;*/
+    /*margin-top: 3px;*/
+    border: 1px solid grey;
+    color: #1BB4FF;
+    /*padding: 0% 0% 0% 0.2%; /*内距:上 右 下 左*/
+    overflow-x:hidden;
+
+}
+
+#tables table {
+width: 100%;
+margin:0 auto;
+font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+font-size: 10px;
+/*color: #0; 不能用1个0 */
+border: none;
+border-collapse: collapse;
+text-shadow: 0 1px 2px rgba(0,0,0,.3);
+
+}
+#tables td{
+/* max-width:100%; Mozilla才支持一个max-width 的CSS语法 */
+border: none; /*solid #000 1px;*/
+vertical-align:center;
+text-align:center;
+color: #1BB4FF;
+}
+
+#splashes {
+    background-color: inherit;
+    display: inline-block;
+    width: 100%;
+    height: 65%;
+    /*height: 80%;*/
+    /*margin-bottom: 3px;*/
+    /*margin-top: 3px;*/
+    border: 1px solid grey;
+    /*padding: 0% 0% 0% 0.2%; /*内距:上 右 下 左*/
+}
+
+/*bottom*/
+#panel_bottom {
+    /*background-color: #08304A;*/
+    background-color: inherit;/*继承父元素*/
+    display: flex;	/*flex 块与块之间没有空隙*/
+    width: 99.5%;
+    height: 33.7%;
+    padding: 0.1% 0.2% 0.25% 0.25%;/*内距:上 右 下 左*/
+    /*margin: 0 3px 3px 3px;*/
+}
+
+#provinceMap {
+    background-color: #08304A;
+    /*font-max-size: 4px;  无用？？？*/
+    display: inline-block; /*行内块元素*/
+    width: 25%;
+    height: 100%;
+    /*margin-right: 3px;*/
+    border: 1px solid grey;
+    /*padding: 0% 0.2% 0% 0%; /*内距:上 右 下 左*/
+}
+
+#columnar {
+    background-color: #08304A;
+    display: inline-block; /*行内块元素*/
+    width: 25%;
+    height: 100%;
+    /*margin-right: 3px; 右外边框 3px*/
+    border: 1px solid grey;
+    /*padding: 0% 0.2% 0% 0.2%; /*内距:上 右 下 左*/
+}
+
+#circleM {
+    background-color: #08304A; /*继承*/
+    display: inline-block; /*行内块元素*/
+    width: 25%;
+    height: 100%;
+    /*margin-right: 3px;*/
+    border: 1px solid grey;
+    /*padding: 0% 0.2% 0% 0.2%; /*内距:上 右 下 左*/
+}
+
+#axisM {
+    background-color: #08304A; /*继承*/
+    display: inline-block; /*行内块元素*/
+    width: 25%;
+    height: 100%;
+    /*margin-right: 3px;*/
+    border: 1px solid grey;
+    overflow:hidden;
+    /*padding: 0% 0.2% 0% 0.2%; /*内距:上 右 下 左*/
+}
+
+/*#map > div:nth-child(4) > a > img{*/
+    /*width: 30px;*/
+    /*height: 30px;*/
+/*}*/
+/*#map  div.BMap_cpyCtrl.BMap_noprint.anchorBL  span  span{*/
+    /*font-size: 5px;*/
+/*}*/
+

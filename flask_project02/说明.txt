@@ -1,0 +1,6 @@
+说明：
+1.processDataJson文件夹为初步数据处理结果，data文件夹为最终数据处理结果，testPy为项目中用到的测试
+2.数据库文件夹中的表为数据清理后的数据，需要导入mysql；
+3.项目用flask做后台，使用的数据库为mongodb，因此需要安装mongodb，先运行dealDataPy文件下的deal_mongodb.py，插入数据到mongodb；
+4.项目中用了一些python包，需要默认安装，运行环境python3.6
+5.运行app.py,启动项目
